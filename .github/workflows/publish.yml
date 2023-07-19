@@ -25,6 +25,11 @@ jobs:
       with:
         python-version: 3.8
 
+    # Fetch our python files
+    - name: Moving local python sources
+      run: |
+        cp ./test/* ./book
+
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
