@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: project-info
+  title: Project Information
+- file: team-info
+- file: BStock_Notebook
+  title: Python Application
+- file: acknowledgements
